@@ -19,7 +19,7 @@ Download corpus_COESEM_v5.zip from the [CoSEM repository](https://github.com/wdw
 
 The file structure should look like this:
 
-    [NAME OF PROJECT TK]
+    [CoSEM Mapper]
       ├─ blankline_remover.py
       ├─ CoSEM_v5/
       ├─ README.md
@@ -31,7 +31,7 @@ All formatting can be run using the `run_formatting.sh` shell script. Simply ent
 
 Once the full script has run, the file system should look like this (new files marked with an asterisk (*)):
 
-    [NAME OF PROJECT TK]
+    [CoSEM Mapper]
       ├─ blankline_remover.py
       ├─ CoSEM_v5/
       ├─ demographic_metadata.tsv*
