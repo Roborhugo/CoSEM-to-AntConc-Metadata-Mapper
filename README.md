@@ -2,7 +2,7 @@
 
 [The Corpus of Singapore English Messages (CoSEM)](https://github.com/wdwgonzales/CoSEM) contains nearly 900,000 lines of text messaging, along with metadata tags containing demographic information about the sender. This project is intended to be used in order to automate the reformatting I required to correctly load the corpus into [AntConc](https://www.laurenceanthony.net/software/antconc/) for analysis. 
 
-In the following section I will explain the programs needed to make this project work, the steps required to successfully load CoSEM into AntConc, an explanation for how to use the metadata in searches, and may be updated to include a simple command-line python script to ease the generation of the SQL queries needed.
+The following sections include the software needed to make this project work, the steps required to successfully load CoSEM into AntConc, an explanation for how to use the metadata in searches, and may be updated to include a simple command-line python script to ease the generation of the SQL queries needed.
 
 ## Dependencies
 This project requires:
@@ -19,7 +19,7 @@ Download corpus_COESEM_v5.zip from the [CoSEM repository](https://github.com/wdw
 
 The file structure should look like this:
 
-    [CoSEM Mapper]
+    CoSEM Mapper/
       ├─ blankline_remover.py
       ├─ CoSEM_v5/
       ├─ README.md
@@ -31,7 +31,7 @@ All formatting can be run using the `run_formatting.sh` shell script. Simply ent
 
 Once the full script has run, the file system should look like this (new files marked with an asterisk (*)):
 
-    [CoSEM Mapper]
+    CoSEM Mapper/
       ├─ blankline_remover.py
       ├─ CoSEM_v5/
       ├─ demographic_metadata.tsv*
