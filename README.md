@@ -9,7 +9,7 @@ This project requires:
 - the download and unzipping of the corpus chunks found in [The Corpus of Singapore English Messages (CoSEM)](https://github.com/wdwgonzales/CoSEM),
 - [AntConc](https://www.laurenceanthony.net/software/antconc/) to load and make use of the corpus,
 - [Python3](https://www.python.org/) to run the formatting scripts,
-- and access to a Linux terminal to run a shell script.
+- and access to a Unix shell to run a shell script.
 
 The basic usage of these are explained below.
 
